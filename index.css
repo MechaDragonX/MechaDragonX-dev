@@ -1,11 +1,52 @@
-intro {
-    text-align: center;
-    display: inline-block;
+/* General Elements */
+body {
+    background-color: #18181A;
+    color: white;
+    margin: 10px 10px 10px 10px;
 }
-social {
-    text-align: center;
-    display: inline-block;
+h1 {
+    font-size: 20px;
+    font-weight: bold;
 }
-imagebtn {
-    width: 50px;
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+    padding: 1px 1px 1px 1px;
+    margin: 2px 2px 2px 2px;
+}
+div {
+    border: 2px solid white;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 2px 10px 2px;
+}
+
+/* Class Elements */
+div.intro {
+    text-align: center;
+    background-color: #174D1C;
+}
+hl.title {
+    font-size: 20px;
+}
+.title {
+    font-weight: bold;
+    margin: 1px 1px 2px 2px;
+}
+div.social {
+    text-align: center;
+    font-weight: bold;
+    background-color: #17404D;
+}
+a.imagebtn {
+    padding: 2px 2px 2px 2px;
+}
+img.imagebtn {
+    width: 25px;
 }
