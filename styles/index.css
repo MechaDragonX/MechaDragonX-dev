@@ -1,0 +1,32 @@
+div.header {
+    text-align: center;
+    background-image: url("../assets/head.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
+div.intro {
+    text-align: center;
+    background-color: #174D1C;
+}
+hl.title {
+    font-size: 20px;
+    background-color: #323234;
+    padding: 5px 5px 5px 5px;
+}
+.title {
+    font-weight: bold;
+    margin: 1px 1px 2px 2px;
+}
+div.social {
+    text-align: center;
+    background-color: #17404D;
+}
+a.imagebtn {
+    padding: 2px 2px 2px 2px;
+}
+img.imagebtn {
+    width: 25px;
+}
