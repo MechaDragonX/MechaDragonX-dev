@@ -1,19 +1,18 @@
 div.header {
     text-align: center;
-    background-image: url("../assets/head.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    background: url(../assets/head.png) no-repeat center center fixed;
+    background-size: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+hl.title {
+    font-size: 50px;
+    padding: 5px 5px 5px 5px;
 }
 div.intro {
     text-align: center;
     background-color: #174D1C;
-}
-hl.title {
-    font-size: 20px;
-    background-color: #323234;
-    padding: 5px 5px 5px 5px;
 }
 .title {
     font-weight: bold;
