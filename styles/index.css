@@ -10,6 +10,7 @@ div.header {
 div.intro {
     text-align: center;
     background-color: #174D1C;
+    border: 2px solid white;
 }
 hl.title {
     font-size: 20px;
@@ -23,10 +24,16 @@ hl.title {
 div.social {
     text-align: center;
     background-color: #17404D;
+    border: 2px solid white;
 }
 a.imagebtn {
     padding: 2px 2px 2px 2px;
 }
 img.imagebtn {
     width: 25px;
+}
+div.projects {
+    text-align: center;
+    background-color: #4D1D17;
+    border: 2px solid white;
 }
