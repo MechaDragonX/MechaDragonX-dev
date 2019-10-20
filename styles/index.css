@@ -5,6 +5,7 @@ div.header {
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px 10px 10px 10px;
+    border: 2px solid white;
 }
 
 div.intro {
