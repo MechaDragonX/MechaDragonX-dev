@@ -32,6 +32,9 @@ div {
 a {
     color: #ff1493;
 }
-.pink-purple {
+a.pink-purple {
     color: #0DDA0D;
+}
+.mediatitle {
+    font-style: italic;
 }
