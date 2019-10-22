@@ -15,12 +15,12 @@ let onNavItemClick = (pathName) => {
   contentDiv.innerHTML = routes[pathName];
 }
 
-window.onload = () => {
-    UrlExists(window.location);
-}
-
 window.onpopstate = () => {
   contentDiv.innerHTML = routes[window.location.pathname];
+}
+
+window.onload = () => {
+    UrlExists(window.location);
 }
 
 let UrlExists = (url) => {
