@@ -1,0 +1,16 @@
+body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div.error {
+    font-size: 30;
+    text-align: center;
+    border: none;
+    color: #00eeff;
+}
+div.message {
+    text-align: center;
+}
