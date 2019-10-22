@@ -27,8 +27,5 @@ let UrlExists = (url) => {
     var http = new XMLHttpRequest();
     http.open('HEAD', url, false);
     http.send();
-    if (http.status != 404)
-        window.location.href("/404");
-    else
-        window.location.reload();
+    if (http.status == 404) window.location.href("/404");
 }
