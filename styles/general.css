@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap);
+}
+@font-face {
+    font-family: "Famicom";
+    src: url("../assets/PixelMplus10-Regular.ttf");
+}
 body {
     background-color: #18181A;
     font-family: "Press Start 2P", cursive;
@@ -23,6 +31,9 @@ p {
 }
 p.scyther {
     text-decoration:line-through;
+}
+p.ja {
+    font-family: Famicom;
 }
 div {
     border: 5px solid white;
